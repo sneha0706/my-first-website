@@ -1,4 +1,42 @@
 
+.navbar {
+  background-color: #66BFBF;
+  color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+  letter-spacing: 3px;
+    /* border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px; */
+
+}
+
+.nav  a:hover {
+    color: #11999E ;
+    /* !important; */
+
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #fff;
+  text-align: center;
+padding-right: 30%;
+box-sizing: content-box;
+  width: 150px;
+  text-decoration: none;
+}
+
+.navbar-brand{
+  padding-left: 80%;
+  font-size: 30px;
+
+}
+
 
 body{
   color: #40514E;
@@ -160,4 +198,32 @@ a:hover{
   height: 25px;
   width: 25px;
 
+}
+
+
+/***************Testimonial-Section******************/
+
+#testimonials{
+  background-color: #fff;
+  text-align: center;
+  padding:7% 15%;
+
+}
+
+.testimonial-image{
+
+  width: 90%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-size: 4rem;
 }
